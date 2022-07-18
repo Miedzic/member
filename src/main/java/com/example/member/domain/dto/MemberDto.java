@@ -15,4 +15,5 @@ public class MemberDto {
     private String givenName;
     private String familyName;
     private int age;
+    private Long nrOfFamily;
 }

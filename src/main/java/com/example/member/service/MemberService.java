@@ -12,10 +12,11 @@ import java.util.List;
 public class MemberService {
     private final MemberRepository memberRepository;
 
-    public Member save(Member member){
+    public Member save(Member member) {
         return memberRepository.save(member);
     }
-    public List<Member> getMembers(String familyName){
+
+    public List<Member> getMembers(String familyName) {
         return memberRepository.findByFamilyName(familyName);
     }
 }

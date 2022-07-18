@@ -22,4 +22,5 @@ public class Member {
     private String givenName;
     private String familyName;
     private int age;
+    private Long nrOfFamily;
 }
